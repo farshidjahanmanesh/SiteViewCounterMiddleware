@@ -36,7 +36,8 @@ namespace UI.middleware
                 if (!IpAddress.Any(x => x == remoteIpAddress))
                 {
                     IpAddress.Add(remoteIpAddress);
-                    //add today date time to database
+                    //in this section you can add all ip address in IpAddress to database
+                    //or add IpAddress.Count just for get count of person view your site
                 }
 
 
